@@ -1,5 +1,5 @@
 // middleware.ts
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest } from 'next/server';
 
 // Middleware function to handle caching
 export async function middleware(request: NextRequest) {
