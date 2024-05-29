@@ -3,6 +3,7 @@ import type { Asset } from '@uniformdev/assets';
 import { PageParameters, UniformComposition, retrieveRoute } from '@uniformdev/canvas-next-rsc';
 import { getMediaUrl } from '../../utilities';
 import { componentResolver } from '../../canvas/index';
+export const runtime = 'edge';
 
 // Uncomment this to enable static site generation mode
 // export { generateStaticParams } from '@uniformdev/canvas-next-rsc';

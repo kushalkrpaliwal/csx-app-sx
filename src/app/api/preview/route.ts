@@ -4,6 +4,8 @@ import {
   createPreviewPOSTRouteHandler,
 } from '@uniformdev/canvas-next-rsc/handler';
 
+export const runtime = 'edge';
+
 export const GET = createPreviewGETRouteHandler({
   playgroundPath: '/playground',
 });
